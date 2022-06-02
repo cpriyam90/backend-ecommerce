@@ -1,11 +1,24 @@
 const router = require('express').Router();
 const { Category, Product } = require('../../models');
+const { restore } = require('../../models/Product');
 
 // The `/api/categories` endpoint
 
 router.get('/', (req, res) => {
   // find all categories
-  // be sure to include its associated Products
+  
+// be sure to include its associated Products
+  Category.findAll({
+    include: [{
+      model: Product
+    }]
+  })
+  .then(data => {
+    res.json(data)
+  })
+  .catch(err => {
+    console.log(err)
+  })
 });
 
 router.get('/:id', (req, res) => {

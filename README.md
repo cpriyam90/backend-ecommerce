@@ -17,7 +17,9 @@ A back-end application for an e-commerce website. A working Express.js API was u
 
 
 ## Video-Link
-**[Click here for video link](https://youtu.be/7-4gAELGJSI)**
+Please note I ran out of the five minute limit for screencastify to record my demo in one video which is why there are two videos included for this assignment. In the first video, I start the application by seeding the database, creating the schema, and start the application from my terminal. The first video shows the GET,PUSH,PUT,DEL for Categories and Tags. In the second video I demonstrate GET,PUSH,PUT,DEL only for Products since I ran out of recording time in the first video.
+**[Click here for video link to the first video in this two-part demo](https://youtu.be/lgDS8Ij_rAU)**
+**[Click here for video link to the second video in this two-part demo](https://youtu.be/KJh3Wpj8udE)**
 
 
 ## Credits/Citations
@@ -51,7 +53,7 @@ The features of this application meet the following acceptance criteria
 
 
 ## Screenshots
-See below screenshots of generated Readme
+See below screenshots
 ![alt="Screenshot of Categories"](./screenshots/screenshot.png)
 ![alt="Screenshot of Tags"](./screenshots/screenshot2.png)
 ![alt="Screenshot of Products"](./screenshots/screenshot3.png)

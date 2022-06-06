@@ -1,11 +1,4 @@
-// ## Credits/Citations
-// * Tutor Abdullah explained how to use sequelize and establish my routes
-// * Lesson 13 
-// * Insomnia Documentation
-// * Starter code provided with challenge assignment
-// const router = require('express').Router();
-
-
+const router = require('express').Router();
 const { Category, Product } = require('../../models');
 
 

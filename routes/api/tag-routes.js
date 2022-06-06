@@ -31,7 +31,7 @@ router.get('/:id', async(req, res) => {
 
 router.post('/', (req, res) => {
   // create a new tag
-  Category.create(req.body)
+  Tag.create(req.body)
   .then(newtag =>{
     res.json("tag has been added")
   })
